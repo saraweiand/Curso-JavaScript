@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade</title>
+</head>
+<body>
+    <h1>Você é estrangeiro?</h1>
+    Digite seu país: <input type="text" name="cidade" id="cidade">
+    <input type="button" value="Enviar" onclick="enviar()">
+    <div id="res"></div>
+
+    <script>
+        function enviar(){
+            var cid = window.document.getElementById('cidade')
+            var res = window.document.querySelector('div#res')
+            var cid = String(cid.value)
+            if (cid == 'brasil'){
+                res.innerHTML = 'Você é brasileira!'
+            } else {
+                res.innerHTML = 'Você é estrangeira!'
+            }
+        }
+    </script>
+</body>
+</html>
