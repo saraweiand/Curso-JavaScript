@@ -2,14 +2,10 @@
 
 html, body{
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
     background-color: #C8B88B;
-}
-
-main{
-    background-color: #C8B88B;
-    height: 90vh;
 }
 
 main > h1{
@@ -27,7 +23,7 @@ section{
     left: 50%;
     overflow: hidden;
 
-    width: 70%;
+    width: 40%;
     height: 45%;
     border-radius: 20px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.315);
@@ -38,6 +34,7 @@ section{
 section > div#frase{
     text-align: center;
     padding: 30px;
+    font-size: 25px;
 }
 
 section > div#img{
@@ -46,8 +43,19 @@ section > div#img{
     padding: 10px;
 }
 
+section > div#foto > img#imagem{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding-top: 50px;
+
+    transform: translate(-50%, -50%);
+}
+
 footer{
-    margin-top: -233px;
+    padding-top: 490px;
 }
 
 footer > p{
