@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <main>
+        <h1>Verificador de Idade</h1>
+        <section>
+            <div id="formulario">
+                <form action="catalogo.php">
+                    <div id="ano">
+                        <label for="iano">Ano de Nascimento: </label>
+                        <input type="number" name="ano" id="iano">
+                    </div>
+
+                    <div id="sexo">Sexo:
+                        <input type="radio" name="sexo" id="masc" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="sexo" id="fem">
+                        <label for="fem">Feminino</label>
+                    </div>
+
+                    <div id="botao"><input type="button" value="Verificar" onclick="verificar()"></div>
+                </form>
+            </div>
+            <div id="res">
+                Preencha os dados acima para ver o resultado!
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://github.com/saraweiand" target="_blank">GitHub - Sara Weiand Wust</a></p>
+        <p><a href="https://www.linkedin.com/in/saraweiandwust/" target="_blank">Linkedin - Sara Weiand Wust</a></p>
+    </footer>
+</body>
+</html>
