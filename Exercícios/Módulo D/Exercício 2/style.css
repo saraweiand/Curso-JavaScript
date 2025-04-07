@@ -1,38 +1,40 @@
 @charset "UTF-8";
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-body, html{
-    background-color: aquamarine;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
 }
 
 main{
-    padding: 50px;
+    display: flex;
+    flex: 1; /* Faz o main ocupar todo o espaço disponível */
+    flex-direction: column;
+    align-items: center;
 }
 
 main > h1{
     text-align: center;
     font-size: 2.3em;
+    margin-bottom: 20px;
+    padding-top: 50px;
 }
 
 section{
     background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
     width: 80%;
     max-width: 500px;
     min-height: 200px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
     overflow: hidden;
-
-    transform: translate(-50%, -50%);
+    margin: 20px 0;
 }
 
 section > div#formulario{
@@ -52,4 +54,19 @@ section > div#res{
 
 #foto{
     border-radius: 100%;
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    line-height: 35px;
 }

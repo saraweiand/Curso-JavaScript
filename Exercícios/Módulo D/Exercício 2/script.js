@@ -32,6 +32,7 @@ function verificar() {
                 //JOVEM
             } else if (idade < 60){
                 //ADULTO
+                img.setAttribute('src', 'mulher.jpg')
             } else{
                 //IDOSO
             }
