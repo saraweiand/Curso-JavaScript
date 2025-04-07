@@ -7,64 +7,49 @@
 }
 
 body, html{
-    
-    background-color: rgb(0, 110, 255);
+    background-color: aquamarine;
 }
 
 main{
-    margin-top: 140px;
+    padding: 50px;
 }
 
 main > h1{
     text-align: center;
-    color: white;
+    font-size: 2.3em;
 }
 
 section{
     background-color: white;
-    text-align: justify;
     position: absolute;
     top: 50%;
     left: 50%;
 
-    width: 390px;
-    height: 150px;
-    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    min-height: 200px;
     border-radius: 20px;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.315);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+    overflow: hidden;
 
-    transform: translate(-50%, -130%);
+    transform: translate(-50%, -50%);
 }
 
-div#ano, div#sexo{
-    font-size: 17px;
-    height: 25px;
-    padding-top: 10px;
-}
-
-div#botao{
-    padding-top: 19px;
-}
-
-input#isexo{
-    margin: 5px;
+section > div#formulario{
+    padding: 15px 2px 0px 15px;
+    line-height: 2;
+    font-size: 18px;
 }
 
 section > div#res{
-    padding-top: 20px;
-}
-
-footer{
-    margin-top: 250px;
-}
-
-footer > p{
-    padding: 5px;
     text-align: center;
-    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
 }
 
-footer > p > a{
-    text-decoration: none;
-    color: white;
+#foto{
+    border-radius: 100%;
 }
