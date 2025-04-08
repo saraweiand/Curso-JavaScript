@@ -23,7 +23,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Módulo E\\aula14\\ambiente.js"
+            "program": "${workspaceFolder}\\Módulo E\\Repetições\\Exercício 1\\contador.js"
         }
     ]
 }

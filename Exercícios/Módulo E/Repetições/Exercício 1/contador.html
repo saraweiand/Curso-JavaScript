@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="contador.js"></script>
+    <title>Vamos contar</title>
+</head>
+<body>
+    <main>
+        <h1>Vamos contar</h1>
+        <section>
+            <div id="formulario">
+                <form action="catalogo.php" autocomplete="off">
+                    <div id="campos">
+                        <label for="in1">Início:</label>
+                        <input type="number" name="n1" id="in1" required><br>
+
+                        <label for="in2">Fim:</label>
+                        <input type="number" name="n2" id="in2" required><br>
+
+                        <label for="ipasso">Passo:</label>
+                        <input type="number" name="passo" id="ipasso" required>
+                    </div>
+
+                    <div id="botao"><input type="button" value="Contar" onclick="contar()"></div>
+                </form>
+            </div>
+            <div id="res">
+                Preencha os dados acima para que seja calculado!
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://github.com/saraweiand" target="_blank">GitHub - Sara Weiand Wust</a></p>
+        <p><a href="https://www.linkedin.com/in/saraweiandwust/" target="_blank">Linkedin - Sara Weiand Wust</a></p>
+    </footer>
+</body>
+</html>
