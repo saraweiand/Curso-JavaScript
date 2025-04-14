@@ -5,7 +5,7 @@ function contar() {
     var resElemento = window.document.getElementById('res')
 
     if (in1.value.length == 0 || in2.value.length == 0 || ipasso.value.length == 0) {
-        window.alert('[ERRO] - Digite os dados corretamente')
+        window.alert('[ERRO] - Digite os dados corretamente!')
     } else {
         var in1 = Number(in1.value)
         var in2 = Number(in2.value)
