@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex: 1; /* Faz o main ocupar todo o espaço disponível */
+    flex-direction: column;
+    align-items: center;
+}
+
+main > h1{
+    text-align: center;
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+section{
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    min-height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+section > div#formulario{
+    padding: 15px 2px 0px 15px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+div#campos{
+    display: block;
+    line-height: 50px;
+}
+
+div#botao > input{
+    width: 50px;
+    height: 25px;
+}
+
+section > div#saida{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+section > div#saida > p{
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    width: 60%;
+    text-align: center;
+    line-height: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    line-height: 35px;
+}
