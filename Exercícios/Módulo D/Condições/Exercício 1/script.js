@@ -2,8 +2,8 @@ function carregar() {
     var frase = window.document.getElementById('frase')
     var img = window.document.getElementById('imagem')
     var data = new Date()
-    //var hora = data.getHours()
-    var hora = 1
+    var hora = data.getHours()
+    //var hora = 1
     frase.innerHTML = `Agora são ${hora} horas.`
     if (hora >= 5 && hora < 12) {
         img.src = 'manha.jpg'

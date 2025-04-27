@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página que mostra a hora atual e muda a imagem de fundo conforme o período do dia"> <!--META DESCRIPTION ADICIONADO-->
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Hora do Dia</title>
 </head>
 <body onload="carregar()">
@@ -13,13 +13,15 @@
         <section>
             <div id="frase"></div>
             <div id="foto">
-                <img id="imagem" src="manha.jpg" alt="Foto do dia">
+                <img id="imagem" src="" alt="Imagem representando o período do dia"> <!--REMOVIDO O SCR, POIS ELE SERÁ DEFINIDO PELO JS E ALTEREI O ALT PARA SER MAIS DESCRITIV-->
             </div>
         </section>
     </main>
     <footer>
-        <p><a href="https://github.com/saraweiand" target="_blank">GitHub - Sara Weiand Wust</a></p>
-        <p><a href="https://www.linkedin.com/in/saraweiandwust/" target="_blank">Linkedin - Sara Weiand Wust</a></p>
+        <p><a href="https://github.com/saraweiand" target="_blank" rel="noopener noreferrer">GitHub - Sara Weiand Wust</a></p> <!--ADICIONADO REL PARA MAIOR SEGURANÇA-->
+        <p><a href="https://www.linkedin.com/in/saraweiandwust/" target="_blank" rel="noopener noreferrer">Linkedin - Sara Weiand Wust</a></p> <!--ADICIONADO REL PARA MAIOR SEGURANÇA-->
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
