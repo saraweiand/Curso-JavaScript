@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador de Números</title>
+</head>
+<body>
+    <main>
+        <h1>Analisador de Números</h1>
+        <section>
+            <div id="formulario">
+                <form action="catalogo.php" autocomplete="off">
+                    <div id="campos">
+                        <label for="in1">Número (entre 1 e 100):</label>
+                        <input type="number" name="n1" id="in1" required>
+                        <input id="botao" type="button" value="Adicionar" onclick="adicionar()">
+                    </div>
+                </form>
+            </div>
+            <div id="res">
+                Adicionando...
+            </div>
+            <div id="btn_finalizar">
+                <input id="botao" type="button" value="Finalizar" onclick="finalizar()">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://github.com/saraweiand" target="_blank">GitHub - Sara Weiand Wust</a></p>
+        <p><a href="https://www.linkedin.com/in/saraweiandwust/" target="_blank">Linkedin - Sara Weiand Wust</a></p>
+    </footer>
+
+    <script src="ambiente.js"></script>
+</body>
+</html>
