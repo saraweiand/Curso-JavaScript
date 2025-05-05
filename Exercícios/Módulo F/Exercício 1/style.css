@@ -58,21 +58,22 @@ div > input#botao {
 }
 
 section > div#saida{
-    width: 30%;
-    font-size: 20px;
-    padding: 20px;
+    width: 31%;
+    padding: 10px;
     margin: 12px;
     border: 1px solid rgba(0, 0, 0, 0.397);
+    line-height: 25px;
 }
 
 section > div#btn_finalizar{
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
 
-#foto{
-    border-radius: 100%;
-    max-width: 150px;
+section > div > p#resultado{
     margin-top: 10px;
+    line-height: 50px;
+    font-size: 20px;
 }
 
 footer{

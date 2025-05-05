@@ -18,12 +18,9 @@ function calculadora(){
     } else if(opcao == 3){
         let div = n1 / n2
         return `${n1} / ${n2} é ` + div
-    } else if {
+    } else if (opcao === 4) {
         let multi = n1 * n2
         return `${n1} * ${n2} é ` + multi
-    } else if (opcao >= 1 && opcao <= 4) {
-        let multi = n1 * n2;
-        return `${n1} * ${n2} é ` + multi;
     } else {
         return "Operação inválida! Escolha de 1 a 4.";
     }
